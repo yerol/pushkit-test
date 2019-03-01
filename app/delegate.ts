@@ -1,6 +1,6 @@
 export class CustomAppDelegate extends UIResponder
   implements UIApplicationDelegate, PKPushRegistryDelegate {
-  public static ObjCProtocols = [UIApplicationDelegate];
+  public static ObjCProtocols = [UIApplicationDelegate, PKPushRegistryDelegate];
 
   applicationDidFinishLaunchingWithOptions(
     application: UIApplication,
